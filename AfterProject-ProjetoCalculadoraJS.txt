@@ -1,0 +1,54 @@
+Projeto Calculadora em JavasCript
+
+Victor Do Carmo
+
+Projeto Iniciado = 14/02/2023
+Projeto Finalizado = 15/02/2023
+
+Tecnologias Usadas: HTML, CSS, JavaScript.
+
+##############################################################################################################
+
+Resumo:
+ Esse foi o meu primeiro projeto em JavasCript que começo e termino, tive certa dificuldade na 
+parte da programação no início, mas no fim acho que me saí bem!
+
+
+##############################################################################################################
+
+Novos Aprendizados:
+ Aprendi na prática a utilizar o "Onclick", aprendi mais sobre funções e como funcionam, utilizei 
+"If" na prática.
+
+
+##############################################################################################################
+
+
+
+Problemas:
+
+
+Na parte de excluir um número na calculadora, nao entendi direito cmo se faz, o código foi o seguinte:
+function back()
+        {
+            var resultado = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1)
+        }
+OBS: O botão a ser utilizado tambem tinha a função "back" em um "onclick".
+
+
+Parece que o Javascrip sabe calcular sozinho...
+
+function calculo()
+        {
+            var resultado = document.getElementById('resultado').innerHTML;
+
+            if(resultado)
+            {
+                document.getElementById('resultado').innerHTML = eval(resultado);
+            }
+        }
+
+com essa função, tudo se calcula automaticamente, tenho que pesquisar mais sobre para saber por que e como funciona.
+
+Boa sorte!
